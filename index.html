@@ -8,17 +8,42 @@
 </head>
 <body>
   <div class="left">
-    left
+    <div class="header">
+      <div class="logo">
+        <img src="odin-lined.png" alt="odin-lined">
+        <div class="logo-text">ODIN</div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Photo by Halie West on Unsplash</p>
+    </div>
   </div>
   <div class="right">
     <div class="top">
-      top
+      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+      <p>You <em>know</em> you want to.</p>
     </div>
     <div class="middle">
-      middle
+      <form id="form1">
+        <legend>Let's do this!</legend>
+
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name">
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name">
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <label for="phone_number">Phone Number</label>
+        <input type="number" id="phone_number">
+        <label for="password_one">Password</label>
+        <input type="password" id="password_one">
+        <label for="password_two">Confirm Password</label>
+        <input type="password" id="password_two">
+      </form>
     </div>
     <div class="bottom">
-      bottom
+      <button type="submit" form="form1">Create Account</button>
+      <p>Already have an account? <a href="#">Log in</a></p>
     </div>
   </div>
 </body>
